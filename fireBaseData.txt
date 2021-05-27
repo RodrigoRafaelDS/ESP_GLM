@@ -1,0 +1,33 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyApp7aNhQeQ8h4zoN6BTENx94yOgMuE7Ag",
+    authDomain: "esp32-fe16a.firebaseapp.com",
+    projectId: "esp32-fe16a",
+    storageBucket: "esp32-fe16a.appspot.com",
+    messagingSenderId: "66524942833",
+    appId: "1:66524942833:web:d1f965c3bd3c968c3b7450"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+const char *host = "https://esp32-fe16a-default-rtdb.firebaseio.com/";
+const char *auth = "9rFkkxT7bXr4zA8uwy9gJfk6ytMRvnwUHLNhy9s2";
+
+
+MODO TESTE VALIDADE 30 DIAS  - 22/05/2021
+
+
+const char *FIREBASE_FCM_SERVER_KEY="AAAAG12ImPk:APA91bEV2sn75FQcKhTBPSalwWM9mZQpMW3HBzIvpkWq8qUV_vcMzQXW8HASbdJng50As1Du2gwpY0TQc_DhljnplriDm6Hsa-vublPrgazVcDISHa6b09v_qUVopXNoiG-3hJYvsMH5";
+const char *FIREBASE_FCM_DEVICE_TOKEN="sdaasd";
+
+
+moraes: AAAAG12ImPk:APA91bEV2sn75FQcKhTBPSalwWM9mZQpMW3HBzIvpkWq8qUV_vcMzQXW8HASbdJng50As1Du2gwpY0TQc_DhljnplriDm6Hsa-vublPrgazVcDISHa6b09v_qUVopXNoiG-3hJYvsMH5
